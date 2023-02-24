@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB284F8E29A2E78C008B101A /* Hot_PotatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB284F8D29A2E78C008B101A /* Hot_PotatoApp.swift */; };
+		AB284F9229A2E78D008B101A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB284F9129A2E78D008B101A /* Assets.xcassets */; };
+		AB284F9529A2E78D008B101A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB284F9429A2E78D008B101A /* Preview Assets.xcassets */; };
+		AB284F9929A2E79C008B101A /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E469D29A04E9F00F77733 /* MusicPlayer.swift */; };
+		AB284FA029A2E7C3008B101A /* bee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5E46A729A0879200F77733 /* bee.mp3 */; };
+		AB284FA129A2E7C8008B101A /* complete.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB5E46AE29A18B7000F77733 /* complete.wav */; };
+		AB284FA229A2E7C8008B101A /* will.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5E46A129A0604F00F77733 /* will.mp3 */; };
+		AB284FA329A2E7C8008B101A /* halls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5E46A529A0875300F77733 /* halls.mp3 */; };
+		AB284FA429A2E7C8008B101A /* squirrel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5D2AD829A29F6D005EA311 /* squirrel.mp3 */; };
+		AB284FA529A2E7C8008B101A /* sabredance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5E469F29A05F8300F77733 /* sabredance.mp3 */; };
+		AB284FA729A2E7FC008B101A /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB284FA629A2E7FC008B101A /* HowToPlayView.swift */; };
+		AB284FA929A2E835008B101A /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB284FA829A2E835008B101A /* PlayView.swift */; };
+		AB284FAB29A2E95D008B101A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB284FAA29A2E95D008B101A /* ContentView.swift */; };
+		AB284FAD29A2E99C008B101A /* GameSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB284FAC29A2E99C008B101A /* GameSelectionView.swift */; };
+		AB284FAF29A2E9AC008B101A /* ChooseMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB284FAE29A2E9AC008B101A /* ChooseMusicView.swift */; };
+		AB53704329A7CBA90098EA47 /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB53704229A7CBA80098EA47 /* ActivityKit.framework */; };
+		AB5D2AD929A29F6D005EA311 /* squirrel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5D2AD829A29F6D005EA311 /* squirrel.mp3 */; };
+		AB5E465A299EA3E300F77733 /* Hot_Potato_TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4659299EA3E300F77733 /* Hot_Potato_TVApp.swift */; };
+		AB5E465C299EA3E300F77733 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E465B299EA3E300F77733 /* ContentView.swift */; };
+		AB5E465E299EA3E500F77733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5E465D299EA3E500F77733 /* Assets.xcassets */; };
+		AB5E4661299EA3E500F77733 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5E4660299EA3E500F77733 /* Preview Assets.xcassets */; };
+		AB5E466B299EA3E600F77733 /* Hot_Potato_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E466A299EA3E600F77733 /* Hot_Potato_TVTests.swift */; };
+		AB5E4675299EA3E600F77733 /* Hot_Potato_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4674299EA3E600F77733 /* Hot_Potato_TVUITests.swift */; };
+		AB5E4677299EA3E600F77733 /* Hot_Potato_TVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4676299EA3E600F77733 /* Hot_Potato_TVUITestsLaunchTests.swift */; };
+		AB5E468E29A0226900F77733 /* GameSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E468D29A0226900F77733 /* GameSelectionView.swift */; };
+		AB5E469029A0236B00F77733 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E468F29A0236B00F77733 /* HowToPlayView.swift */; };
+		AB5E469429A039DE00F77733 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E469329A039DE00F77733 /* CategoryItemView.swift */; };
+		AB5E469829A03E2300F77733 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E469729A03E2300F77733 /* PlayView.swift */; };
+		AB5E469A29A0450E00F77733 /* ChooseMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E469929A0450E00F77733 /* ChooseMusicView.swift */; };
+		AB5E469E29A04E9F00F77733 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E469D29A04E9F00F77733 /* MusicPlayer.swift */; };
+		AB5E46A029A05F8300F77733 /* sabredance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5E469F29A05F8300F77733 /* sabredance.mp3 */; };
+		AB5E46A229A0604F00F77733 /* will.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5E46A129A0604F00F77733 /* will.mp3 */; };
+		AB5E46A629A0875300F77733 /* halls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5E46A529A0875300F77733 /* halls.mp3 */; };
+		AB5E46A829A0879200F77733 /* bee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5E46A729A0879200F77733 /* bee.mp3 */; };
+		AB5E46AF29A18B7000F77733 /* complete.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB5E46AE29A18B7000F77733 /* complete.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5E4667299EA3E600F77733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5E461E299E95E700F77733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5E4656299EA3E300F77733;
+			remoteInfo = "Hot Potato TV";
+		};
+		AB5E4671299EA3E600F77733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5E461E299E95E700F77733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5E4656299EA3E300F77733;
+			remoteInfo = "Hot Potato TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB53703929A71E5F0098EA47 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB284F8B29A2E78C008B101A /* Hot Potato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot Potato.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB284F8D29A2E78C008B101A /* Hot_PotatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_PotatoApp.swift; sourceTree = "<group>"; };
+		AB284F9129A2E78D008B101A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB284F9429A2E78D008B101A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB284FA629A2E7FC008B101A /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		AB284FA829A2E835008B101A /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		AB284FAA29A2E95D008B101A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB284FAC29A2E99C008B101A /* GameSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionView.swift; sourceTree = "<group>"; };
+		AB284FAE29A2E9AC008B101A /* ChooseMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMusicView.swift; sourceTree = "<group>"; };
+		AB53702229A71E5D0098EA47 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AB53702429A71E5D0098EA47 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AB53704229A7CBA80098EA47 /* ActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActivityKit.framework; path = System/Library/Frameworks/ActivityKit.framework; sourceTree = SDKROOT; };
+		AB53704429A80CEE0098EA47 /* Hot-Potato-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Hot-Potato-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AB53707729A810EF0098EA47 /* Hot Potato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hot Potato.entitlements"; sourceTree = "<group>"; };
+		AB53707829A810F50098EA47 /* HotPotatoWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HotPotatoWidgetExtension.entitlements; sourceTree = "<group>"; };
+		AB5D2AD829A29F6D005EA311 /* squirrel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = squirrel.mp3; sourceTree = "<group>"; };
+		AB5E4657299EA3E300F77733 /* Hot Potato TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot Potato TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5E4659299EA3E300F77733 /* Hot_Potato_TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_Potato_TVApp.swift; sourceTree = "<group>"; };
+		AB5E465B299EA3E300F77733 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB5E465D299EA3E500F77733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5E4660299EA3E500F77733 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB5E4666299EA3E600F77733 /* Hot Potato TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hot Potato TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5E466A299EA3E600F77733 /* Hot_Potato_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_Potato_TVTests.swift; sourceTree = "<group>"; };
+		AB5E4670299EA3E600F77733 /* Hot Potato TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hot Potato TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5E4674299EA3E600F77733 /* Hot_Potato_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_Potato_TVUITests.swift; sourceTree = "<group>"; };
+		AB5E4676299EA3E600F77733 /* Hot_Potato_TVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_Potato_TVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB5E468D29A0226900F77733 /* GameSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionView.swift; sourceTree = "<group>"; };
+		AB5E468F29A0236B00F77733 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		AB5E469329A039DE00F77733 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		AB5E469729A03E2300F77733 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		AB5E469929A0450E00F77733 /* ChooseMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMusicView.swift; sourceTree = "<group>"; };
+		AB5E469D29A04E9F00F77733 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		AB5E469F29A05F8300F77733 /* sabredance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sabredance.mp3; sourceTree = "<group>"; };
+		AB5E46A129A0604F00F77733 /* will.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = will.mp3; sourceTree = "<group>"; };
+		AB5E46A529A0875300F77733 /* halls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = halls.mp3; sourceTree = "<group>"; };
+		AB5E46A729A0879200F77733 /* bee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bee.mp3; sourceTree = "<group>"; };
+		AB5E46AB29A1486400F77733 /* Hot-Potato-TV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Hot-Potato-TV-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AB5E46AE29A18B7000F77733 /* complete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB284F8829A2E78C008B101A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB53704329A7CBA90098EA47 /* ActivityKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E4654299EA3E300F77733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E4663299EA3E600F77733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E466D299EA3E600F77733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB284F8C29A2E78C008B101A /* Hot Potato */ = {
+			isa = PBXGroup;
+			children = (
+				AB53707729A810EF0098EA47 /* Hot Potato.entitlements */,
+				AB53704429A80CEE0098EA47 /* Hot-Potato-Info.plist */,
+				AB284F8D29A2E78C008B101A /* Hot_PotatoApp.swift */,
+				AB284F9129A2E78D008B101A /* Assets.xcassets */,
+				AB284F9329A2E78D008B101A /* Preview Content */,
+				AB284FAA29A2E95D008B101A /* ContentView.swift */,
+				AB284FA629A2E7FC008B101A /* HowToPlayView.swift */,
+				AB284FAC29A2E99C008B101A /* GameSelectionView.swift */,
+				AB284FAE29A2E9AC008B101A /* ChooseMusicView.swift */,
+				AB284FA829A2E835008B101A /* PlayView.swift */,
+			);
+			path = "Hot Potato";
+			sourceTree = "<group>";
+		};
+		AB284F9329A2E78D008B101A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB284F9429A2E78D008B101A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB5E461D299E95E700F77733 = {
+			isa = PBXGroup;
+			children = (
+				AB53707829A810F50098EA47 /* HotPotatoWidgetExtension.entitlements */,
+				AB5E4658299EA3E300F77733 /* Hot Potato TV */,
+				AB5E4669299EA3E600F77733 /* Hot Potato TVTests */,
+				AB5E4673299EA3E600F77733 /* Hot Potato TVUITests */,
+				AB284F8C29A2E78C008B101A /* Hot Potato */,
+				AB5E4627299E95E700F77733 /* Products */,
+				AB5E46B529A1E2CB00F77733 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5E4627299E95E700F77733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E4657299EA3E300F77733 /* Hot Potato TV.app */,
+				AB5E4666299EA3E600F77733 /* Hot Potato TVTests.xctest */,
+				AB5E4670299EA3E600F77733 /* Hot Potato TVUITests.xctest */,
+				AB284F8B29A2E78C008B101A /* Hot Potato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5E4658299EA3E300F77733 /* Hot Potato TV */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E46AB29A1486400F77733 /* Hot-Potato-TV-Info.plist */,
+				AB5E4659299EA3E300F77733 /* Hot_Potato_TVApp.swift */,
+				AB5E465B299EA3E300F77733 /* ContentView.swift */,
+				AB5E468F29A0236B00F77733 /* HowToPlayView.swift */,
+				AB5E468D29A0226900F77733 /* GameSelectionView.swift */,
+				AB5E469929A0450E00F77733 /* ChooseMusicView.swift */,
+				AB5E469729A03E2300F77733 /* PlayView.swift */,
+				AB5E465D299EA3E500F77733 /* Assets.xcassets */,
+				AB5E465F299EA3E500F77733 /* Preview Content */,
+				AB5E469329A039DE00F77733 /* CategoryItemView.swift */,
+				AB5E469D29A04E9F00F77733 /* MusicPlayer.swift */,
+				AB5E46A729A0879200F77733 /* bee.mp3 */,
+				AB5E46AE29A18B7000F77733 /* complete.wav */,
+				AB5E46A529A0875300F77733 /* halls.mp3 */,
+				AB5E46A129A0604F00F77733 /* will.mp3 */,
+				AB5D2AD829A29F6D005EA311 /* squirrel.mp3 */,
+				AB5E469F29A05F8300F77733 /* sabredance.mp3 */,
+			);
+			path = "Hot Potato TV";
+			sourceTree = "<group>";
+		};
+		AB5E465F299EA3E500F77733 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E4660299EA3E500F77733 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB5E4669299EA3E600F77733 /* Hot Potato TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E466A299EA3E600F77733 /* Hot_Potato_TVTests.swift */,
+			);
+			path = "Hot Potato TVTests";
+			sourceTree = "<group>";
+		};
+		AB5E4673299EA3E600F77733 /* Hot Potato TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E4674299EA3E600F77733 /* Hot_Potato_TVUITests.swift */,
+				AB5E4676299EA3E600F77733 /* Hot_Potato_TVUITestsLaunchTests.swift */,
+			);
+			path = "Hot Potato TVUITests";
+			sourceTree = "<group>";
+		};
+		AB5E46B529A1E2CB00F77733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB53704229A7CBA80098EA47 /* ActivityKit.framework */,
+				AB53702229A71E5D0098EA47 /* WidgetKit.framework */,
+				AB53702429A71E5D0098EA47 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB284F8A29A2E78C008B101A /* Hot Potato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB284F9829A2E78D008B101A /* Build configuration list for PBXNativeTarget "Hot Potato" */;
+			buildPhases = (
+				AB284F8729A2E78C008B101A /* Sources */,
+				AB284F8829A2E78C008B101A /* Frameworks */,
+				AB284F8929A2E78C008B101A /* Resources */,
+				AB53703929A71E5F0098EA47 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hot Potato";
+			productName = "Hot Potato";
+			productReference = AB284F8B29A2E78C008B101A /* Hot Potato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5E4656299EA3E300F77733 /* Hot Potato TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5E4678299EA3E600F77733 /* Build configuration list for PBXNativeTarget "Hot Potato TV" */;
+			buildPhases = (
+				AB5E4653299EA3E300F77733 /* Sources */,
+				AB5E4654299EA3E300F77733 /* Frameworks */,
+				AB5E4655299EA3E300F77733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hot Potato TV";
+			packageProductDependencies = (
+			);
+			productName = "Hot Potato TV";
+			productReference = AB5E4657299EA3E300F77733 /* Hot Potato TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5E4665299EA3E600F77733 /* Hot Potato TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5E467B299EA3E600F77733 /* Build configuration list for PBXNativeTarget "Hot Potato TVTests" */;
+			buildPhases = (
+				AB5E4662299EA3E600F77733 /* Sources */,
+				AB5E4663299EA3E600F77733 /* Frameworks */,
+				AB5E4664299EA3E600F77733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5E4668299EA3E600F77733 /* PBXTargetDependency */,
+			);
+			name = "Hot Potato TVTests";
+			productName = "Hot Potato TVTests";
+			productReference = AB5E4666299EA3E600F77733 /* Hot Potato TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5E466F299EA3E600F77733 /* Hot Potato TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5E467E299EA3E600F77733 /* Build configuration list for PBXNativeTarget "Hot Potato TVUITests" */;
+			buildPhases = (
+				AB5E466C299EA3E600F77733 /* Sources */,
+				AB5E466D299EA3E600F77733 /* Frameworks */,
+				AB5E466E299EA3E600F77733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5E4672299EA3E600F77733 /* PBXTargetDependency */,
+			);
+			name = "Hot Potato TVUITests";
+			productName = "Hot Potato TVUITests";
+			productReference = AB5E4670299EA3E600F77733 /* Hot Potato TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5E461E299E95E700F77733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AB284F8A29A2E78C008B101A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AB5E4656299EA3E300F77733 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AB5E4665299EA3E600F77733 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AB5E4656299EA3E300F77733;
+					};
+					AB5E466F299EA3E600F77733 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AB5E4656299EA3E300F77733;
+					};
+				};
+			};
+			buildConfigurationList = AB5E4621299E95E700F77733 /* Build configuration list for PBXProject "Hot Potato" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5E461D299E95E700F77733;
+			packageReferences = (
+			);
+			productRefGroup = AB5E4627299E95E700F77733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5E4656299EA3E300F77733 /* Hot Potato TV */,
+				AB5E4665299EA3E600F77733 /* Hot Potato TVTests */,
+				AB5E466F299EA3E600F77733 /* Hot Potato TVUITests */,
+				AB284F8A29A2E78C008B101A /* Hot Potato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB284F8929A2E78C008B101A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB284FA029A2E7C3008B101A /* bee.mp3 in Resources */,
+				AB284FA229A2E7C8008B101A /* will.mp3 in Resources */,
+				AB284FA129A2E7C8008B101A /* complete.wav in Resources */,
+				AB284FA429A2E7C8008B101A /* squirrel.mp3 in Resources */,
+				AB284FA529A2E7C8008B101A /* sabredance.mp3 in Resources */,
+				AB284F9529A2E78D008B101A /* Preview Assets.xcassets in Resources */,
+				AB284F9229A2E78D008B101A /* Assets.xcassets in Resources */,
+				AB284FA329A2E7C8008B101A /* halls.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E4655299EA3E300F77733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5D2AD929A29F6D005EA311 /* squirrel.mp3 in Resources */,
+				AB5E46A029A05F8300F77733 /* sabredance.mp3 in Resources */,
+				AB5E46AF29A18B7000F77733 /* complete.wav in Resources */,
+				AB5E46A229A0604F00F77733 /* will.mp3 in Resources */,
+				AB5E46A829A0879200F77733 /* bee.mp3 in Resources */,
+				AB5E46A629A0875300F77733 /* halls.mp3 in Resources */,
+				AB5E4661299EA3E500F77733 /* Preview Assets.xcassets in Resources */,
+				AB5E465E299EA3E500F77733 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E4664299EA3E600F77733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E466E299EA3E600F77733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB284F8729A2E78C008B101A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB284FA729A2E7FC008B101A /* HowToPlayView.swift in Sources */,
+				AB284FAF29A2E9AC008B101A /* ChooseMusicView.swift in Sources */,
+				AB284F8E29A2E78C008B101A /* Hot_PotatoApp.swift in Sources */,
+				AB284FAB29A2E95D008B101A /* ContentView.swift in Sources */,
+				AB284FAD29A2E99C008B101A /* GameSelectionView.swift in Sources */,
+				AB284FA929A2E835008B101A /* PlayView.swift in Sources */,
+				AB284F9929A2E79C008B101A /* MusicPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E4653299EA3E300F77733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5E469829A03E2300F77733 /* PlayView.swift in Sources */,
+				AB5E469A29A0450E00F77733 /* ChooseMusicView.swift in Sources */,
+				AB5E469E29A04E9F00F77733 /* MusicPlayer.swift in Sources */,
+				AB5E469429A039DE00F77733 /* CategoryItemView.swift in Sources */,
+				AB5E469029A0236B00F77733 /* HowToPlayView.swift in Sources */,
+				AB5E468E29A0226900F77733 /* GameSelectionView.swift in Sources */,
+				AB5E465C299EA3E300F77733 /* ContentView.swift in Sources */,
+				AB5E465A299EA3E300F77733 /* Hot_Potato_TVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E4662299EA3E600F77733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5E466B299EA3E600F77733 /* Hot_Potato_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E466C299EA3E600F77733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5E4675299EA3E600F77733 /* Hot_Potato_TVUITests.swift in Sources */,
+				AB5E4677299EA3E600F77733 /* Hot_Potato_TVUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5E4668299EA3E600F77733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5E4656299EA3E300F77733 /* Hot Potato TV */;
+			targetProxy = AB5E4667299EA3E600F77733 /* PBXContainerItemProxy */;
+		};
+		AB5E4672299EA3E600F77733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5E4656299EA3E300F77733 /* Hot Potato TV */;
+			targetProxy = AB5E4671299EA3E600F77733 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB284F9629A2E78D008B101A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hot Potato/Hot Potato.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hot Potato/Preview Content\"";
+				DEVELOPMENT_TEAM = R7WWG5EU6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hot-Potato-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hot Potatos";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "libertysoftware.com.Hot-Potato-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB284F9729A2E78D008B101A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hot Potato/Hot Potato.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hot Potato/Preview Content\"";
+				DEVELOPMENT_TEAM = R7WWG5EU6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hot-Potato-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hot Potatos";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "libertysoftware.com.Hot-Potato-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB5E4648299E95E900F77733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB5E4649299E95E900F77733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5E4679299EA3E600F77733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Hot Potato TV/Preview Content\"";
+				DEVELOPMENT_TEAM = R7WWG5EU6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hot-Potato-TV-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hot Potato";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "libertysoftware.com.Hot-Potato-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		AB5E467A299EA3E600F77733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Hot Potato TV/Preview Content\"";
+				DEVELOPMENT_TEAM = R7WWG5EU6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hot-Potato-TV-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hot Potato";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "libertysoftware.com.Hot-Potato-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
+		AB5E467C299EA3E600F77733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7WWG5EU6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "libertysoftware.com.Hot-Potato-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hot Potato TV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hot Potato TV";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		AB5E467D299EA3E600F77733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7WWG5EU6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "libertysoftware.com.Hot-Potato-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hot Potato TV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hot Potato TV";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
+		AB5E467F299EA3E600F77733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7WWG5EU6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "libertysoftware.com.Hot-Potato-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Hot Potato TV";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		AB5E4680299EA3E600F77733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7WWG5EU6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "libertysoftware.com.Hot-Potato-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Hot Potato TV";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB284F9829A2E78D008B101A /* Build configuration list for PBXNativeTarget "Hot Potato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB284F9629A2E78D008B101A /* Debug */,
+				AB284F9729A2E78D008B101A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5E4621299E95E700F77733 /* Build configuration list for PBXProject "Hot Potato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5E4648299E95E900F77733 /* Debug */,
+				AB5E4649299E95E900F77733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5E4678299EA3E600F77733 /* Build configuration list for PBXNativeTarget "Hot Potato TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5E4679299EA3E600F77733 /* Debug */,
+				AB5E467A299EA3E600F77733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5E467B299EA3E600F77733 /* Build configuration list for PBXNativeTarget "Hot Potato TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5E467C299EA3E600F77733 /* Debug */,
+				AB5E467D299EA3E600F77733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5E467E299EA3E600F77733 /* Build configuration list for PBXNativeTarget "Hot Potato TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5E467F299EA3E600F77733 /* Debug */,
+				AB5E4680299EA3E600F77733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5E461E299E95E700F77733 /* Project object */;
+}
